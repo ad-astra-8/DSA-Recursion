@@ -4,7 +4,7 @@
 // powerCalculator(10,2) should return 100
 // powerCalculator(10,-2) should return exponent should be >= 0
 
-function powerCalculator(n, pow){
+function powerCalculator(num, pow){
     // Base case
 if (pow < 0) {
     console.log(`Pow must be >= 0`);
@@ -15,7 +15,7 @@ if (pow < 0) {
     // recursive case
     // input to the recursive case is num and pow - 1
     // output of the recursive all is the number multiplied by what is returned by powerCalculator
-    return n * powerCalculator(n, pow - 1);
+    return num * powerCalculator(num, pow - 1);
   }
 }
 
