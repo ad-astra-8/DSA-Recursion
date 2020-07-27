@@ -2,7 +2,7 @@
 // For example, the program should take 3 as an input and print 11 as output, or 25 as an input and print 11001 as an output. 
 // Note that the binary representation of 0 should be 0.
 
-/ positional notation with binary
+// positional notation with binary
 // 10011011 = 155 (1x128 + 0*64 + 0*32 + 1*16 + 1*8 + 0*4 + 1*2 + 1*1)
 //  3 ->    11                    (1*2 + 1*1)
 // 25 -> 11001 (1*16 + 1*8 + 0*4 + 0*2 + 1*1)
